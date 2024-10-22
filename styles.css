@@ -14,16 +14,10 @@ h2 {
 .init {
     text-decoration: underline;
     font-style: italic;
-    margin-top: 10px;
-    margin-bottom: 15px;
 }
 
 h3 {
-    margin-left: 10px;
-    margin-top: 2%;
-}
-
-.text {
+    margin-top: 5px;
 }
 
 .rectangle {
