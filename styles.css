@@ -3,7 +3,27 @@ body {
     background-color: #1f1f1f;
     height: 100vh; 
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center; 
+}
+
+.wrapper1 {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper3 {
+    display: flex;
+    gap: 20px;
 }
 
 h2 {
@@ -20,14 +40,62 @@ h3 {
     margin-top: 5px;
 }
 
-.rectangle {
-    width: 60%; 
-    height: 30%;
+.status {
+    width: 96%;
+    height: 3vh;
     padding: 25px;
     color: #fefefe;
     border: 4px solid #181818;
     border-radius: 10px; 
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 197vh;
+    height: 3vh;
+    padding: 25px;
+    color: #fefefe;
+    border: 4px solid #181818;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle {
+    width: 150vh;
+    height: 28vh;
+    padding: 25px;
+    color: #fefefe;
+    border: 4px solid #181818;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.rectangle2 {
+    width: 50vh;
+    height: 88%;
+    padding: 25px;
+    color: #fefefe;
+    border: 4px solid #181818;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.settings {
+    width: 3vh;
+    height: 3vh;
+    padding: 25px;
+    color: #fefefe;
+    border: 4px solid #181818;
+    border-radius: 10px; 
+    display: flex;
     flex-direction: column; /* Stack vertically */
     overflow-y: auto; /* Allow vertical scrolling */
 }
